@@ -1,0 +1,38 @@
+.main{
+    background: linear-gradient(#39393A, #192433);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inicio__tittle{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    width: 85%;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+
+.personajes{
+    padding-top: 50px;
+}
+

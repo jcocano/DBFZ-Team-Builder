@@ -1,0 +1,42 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #192433;
+    margin: auto;
+    display: flex;
+    height: 80px;
+    width: 100%;
+  }
+  
+
+  .footer a {
+    justify-self: start;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+.footer__img__fb{
+    width: 29px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.footer__img__tw{
+    width: 32px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.footer__img__yt{
+    width: 27px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
