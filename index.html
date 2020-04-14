@@ -23,46 +23,85 @@
 
             <input class="input" type="text" placeholder="Buscar...">
 
-            <section class="personajes">
-                <img src="./icos/android-16.png" alt="">
-                <img src="./icos/android-17.png" alt="">
-                <img src="./icos/android-18.png" alt="">
-                <img src="./icos/android-21.png" alt="">
-                <img src="./icos/bardock.png" alt="">
-                <img src="./icos/base-goku.png" alt="">
-                <img src="./icos/base-vegeta.png" alt="">
-                <img src="./icos/beerus.png" alt="">
-                <img src="./icos/broly.png" alt="">
-                <img src="./icos/captain-ginyu.png" alt="">
-                <img src="./icos/cell.png" alt="">
-                <img src="./icos/cooler.png" alt="">
-                <img src="./icos/frieza.png" alt="">
-                <img src="./icos/fused-zamasu.png" alt="">
-                <img src="./icos/gogeta.png" alt="">
-                <img src="./icos/gohan-adult.png" alt="">
-                <img src="./icos/gohan.png" alt="">
-                <img src="./icos/goku-black.png" alt="">
-                <img src="./icos/goku-ssb.png" alt="">
-                <img src="./icos/goku.png" alt="">
-                <img src="./icos/gotenks.png" alt="">
-                <img src="./icos/hit.png" alt="">
-                <img src="./icos/janemba.png" alt="">
-                <img src="./icos/jiren.png" alt="">
-                <img src="./icos/kefla.png" alt="">
-                <img src="./icos/kid-buu.png" alt="">
-                <img src="./icos/kid-goku.png" alt="">
-                <img src="./icos/krillin.png" alt="">
-                <img src="./icos/majin-buu.png" alt="">
-                <img src="./icos/nappa.png" alt="">
-                <img src="./icos/piccolo.png" alt="">
-                <img src="./icos/super-broly.png" alt="">
-                <img src="./icos/super-saiyan-blue-vegito.png" alt="">
-                <img src="./icos/tien.png" alt="">
-                <img src="./icos/trunks.png" alt="">
-                <img src="./icos/vegeta-ssb.png" alt="">
-                <img src="./icos/vegeta.png" alt="">
-                <img src="./icos/videl.png" alt="">
-                <img src="./icos/yamcha.png" alt="">
+            <section class="options">
+                <section class="options__filter">
+                    <h3>Filtros : </h3>
+                    <div class="options__type">
+                        <label for="ptype">Rol del personaje</label>
+                        <select class="options__ptype" name="Tipo_P" id="ptype">
+                            <option value="all">Todo</option>
+                            <option value="Point">Punta</option>
+                            <option value="Mid">Mid / Asistencia comun</option>
+                            <option value="Anchor">Anchor / Sgunda asistencia</option>
+                        </select>
+                    </div>
+                    <div class="options__raza">
+                        <label for="praza">Raza del personaje</label>
+                        <select name="Raza_P" id="praza">
+                            <option value="all">Todo</option>
+                            <option value="human">Humanos</option>
+                            <option value="sayan">Sayajin</option>
+                            <option value="monster">Mounstros</option>
+                            <option value="fdemons">Demonios del Frio</option>
+                            <option value="gods">Dioses</option>
+                            <option value="androids">Androides</option>
+                            <option value="fuses">Fuciones</option>
+                            <option value="aliens">Extraterrestres</option>
+                            <option value="majin">Majins</option>
+                        </select>
+                    </div>
+                    <div class="options__dlc">
+                        <label for="pdlc">DLC</label>
+                        <select name="P_DLC" id="pdlc">
+                            <option value="all">Todo</option>
+                            <option value="s0">Defecto del juego</option>
+                            <option value="s1">Temporada 1</option>
+                            <option value="s2">Temporada 2</option>
+                            <option value="s3">Temporada 3</option>
+                        </select>
+                    </div>
+                </section>
+                <div>
+                    <img src="./icos/android-16.png" alt="">
+                    <img src="./icos/android-17.png" alt="">
+                    <img src="./icos/android-18.png" alt="">
+                    <img src="./icos/android-21.png" alt="">
+                    <img src="./icos/bardock.png" alt="">
+                    <img src="./icos/base-goku.png" alt="">
+                    <img src="./icos/base-vegeta.png" alt="">
+                    <img src="./icos/beerus.png" alt="">
+                    <img src="./icos/broly.png" alt="">
+                    <img src="./icos/captain-ginyu.png" alt="">
+                    <img src="./icos/cell.png" alt="">
+                    <img src="./icos/cooler.png" alt="">
+                    <img src="./icos/frieza.png" alt="">
+                    <img src="./icos/fused-zamasu.png" alt="">
+                    <img src="./icos/gogeta.png" alt="">
+                    <img src="./icos/gohan-adult.png" alt="">
+                    <img src="./icos/gohan.png" alt="">
+                    <img src="./icos/goku-black.png" alt="">
+                    <img src="./icos/goku-ssb.png" alt="">
+                    <img src="./icos/goku.png" alt="">
+                    <img src="./icos/gotenks.png" alt="">
+                    <img src="./icos/hit.png" alt="">
+                    <img src="./icos/janemba.png" alt="">
+                    <img src="./icos/jiren.png" alt="">
+                    <img src="./icos/kefla.png" alt="">
+                    <img src="./icos/kid-buu.png" alt="">
+                    <img src="./icos/kid-goku.png" alt="">
+                    <img src="./icos/krillin.png" alt="">
+                    <img src="./icos/majin-buu.png" alt="">
+                    <img src="./icos/nappa.png" alt="">
+                    <img src="./icos/piccolo.png" alt="">
+                    <img src="./icos/super-broly.png" alt="">
+                    <img src="./icos/super-saiyan-blue-vegito.png" alt="">
+                    <img src="./icos/tien.png" alt="">
+                    <img src="./icos/trunks.png" alt="">
+                    <img src="./icos/vegeta-ssb.png" alt="">
+                    <img src="./icos/vegeta.png" alt="">
+                    <img src="./icos/videl.png" alt="">
+                    <img src="./icos/yamcha.png" alt="">
+                </div>
             </section>
         </section>
     </body>
