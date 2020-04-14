@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Team NR (New Revolution MX) DBFZ Team Bulider",
   "main": "index.js",
+  "homepage": "https://jcocano.github.io/DBFZ-Team-Bulider/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
