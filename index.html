@@ -29,35 +29,35 @@
                     <div class="options__type">
                         <label for="ptype">Rol del personaje</label>
                         <select class="options__ptype" name="Tipo_P" id="ptype">
-                            <option value="all">Todo</option>
-                            <option value="point">Punta</option>
-                            <option value="mid">Mid / Asistencia comun</option>
-                            <option value="anchor">Anchor / Sgunda asistencia</option>
+                            <option value="all" onclick="filtro(all)">Todo</option>
+                            <option value="point" onclick="filtro(point)">Punta</option>
+                            <option value="mid" onclick="filtro(mid)">Mid / Asistencia comun</option>
+                            <option value="anchor" onclick="filtro(anchor)">Anchor / Sgunda asistencia</option>
                         </select>
                     </div>
                     <div class="options__raza">
                         <label for="praza">Raza del personaje</label>
                         <select name="Raza_P" id="praza">
-                            <option value="all">Todo</option>
-                            <option value="human">Humanos</option>
-                            <option value="sayan">Sayajin</option>
-                            <option value="monster">Mounstros</option>
-                            <option value="fdemons">Demonios del Frio</option>
-                            <option value="gods">Dioses</option>
-                            <option value="androids">Androides</option>
-                            <option value="fuses">Fuciones</option>
-                            <option value="aliens">Extraterrestres</option>
-                            <option value="majin">Majins</option>
+                            <option value="all" onclick="filtro(all)">Todo</option>
+                            <option value="human" onclick="filtro(human)">Humanos</option>
+                            <option value="sayan" onclick="filtro(sayan)">Sayajin</option>
+                            <option value="monster" onclick="filtro(monster)">Mounstros</option>
+                            <option value="fdemons" onclick="filtro(fdemons)">Demonios del Frio</option>
+                            <option value="gods" onclick="filtro(gods)">Dioses</option>
+                            <option value="androids" onclick="filtro(andoids)">Androides</option>
+                            <option value="fuses" onclick="filtro(fuses)">Fuciones</option>
+                            <option value="aliens" onclick="filtro(aliens)">Extraterrestres</option>
+                            <option value="majin" onclick="filtro(majin)">Majins</option>
                         </select>
                     </div>
                     <div class="options__dlc">
                         <label for="pdlc">DLC</label>
                         <select name="P_DLC" id="pdlc">
-                            <option value="all">Todo</option>
-                            <option value="s0">Defecto del juego</option>
-                            <option value="s1">Temporada 1</option>
-                            <option value="s2">Temporada 2</option>
-                            <option value="s3">Temporada 3</option>
+                            <option value="all" onclick="filtro(all)">Todo</option>
+                            <option value="s0" onclick="filtro(s0)">Defecto del juego</option>
+                            <option value="s1" onclick="filtro(s1)">Temporada 1</option>
+                            <option value="s2" onclick="filtro(s2)">Temporada 2</option>
+                            <option value="s3" onclick="filtro(s3)">Temporada 3</option>
                         </select>
                     </div>
                 </section>
@@ -75,18 +75,18 @@
                     <li class="point mid anchor monster s0" class="selector cell"><a href="#">Cell</a></li>
                     <li class="point mid anchor fdemons s1"><a href="#" class="selector cooler">Coller</a></li>
                     <li class="point mid anchor fdemons s0"><a href="#" class="selector freezer">Freezer</a></li>
-                    <li class="point gods s1"><a href="#" class="selector zamasuf">Zamasu Fusionado</a></li>
-                    <li class="mid sayan gods s2"><a href="#" class="selector gogetab">Gogeta Blue</a></li>
+                    <li class="point gods fuses s1"><a href="#" class="selector zamasuf">Zamasu Fusionado</a></li>
+                    <li class="mid sayan gods fuses s2"><a href="#" class="selector gogetab">Gogeta Blue</a></li>
                     <li class="point sayan s0"><a href="#" class="selector gohanssj">Gohan SSJ 2</a></li>
                     <li class="point mid sayan s0"><a href="#" class="selector gohana">Gohan Adulto</a></li>
                     <li class="anchor sayan s0"><a href="#" class="selector gokussj">Goku SSJ</a></li>
                     <li class="anchor gods s0"><a href="#" class="selector gokublack">Goku Black</a></li>
                     <li class="point mid sayan gods s0"><a href="#" class="selector gokublue">Goku Blue</a></li>
-                    <li class="point mid anchor sayan s0"><a href="#" class="selector gotenks">Gotenks</a></li>
+                    <li class="point mid anchor sayan fuses s0"><a href="#" class="selector gotenks">Gotenks</a></li>
                     <li class="point anchor aliens s0"><a href="#" class="selector hit">Hit</a></li>
                     <li class="point monster s2"><a href="#" class="selector janemba">Janemba</a></li>
                     <li class="mid aliens s2"><a href="#" class="selector jiren">Jiren</a></li>
-                    <li class="point mid sayan s3"><a href="#" class="selector kefla">Kefla</a></li>
+                    <li class="point mid sayan fuses s3"><a href="#" class="selector kefla">Kefla</a></li>
                     <li class="point mid anchor monster s0"><a href="#" class="selector kidbuu">Kid Buu</a></li>
                     <li class="point mid anchor sayan s2"><a href="#" class="selector gokugt">Goku GT</a></li>
                     <li class="point mid human s0"><a href="#" class="selector krillin">Krillin</a></li>
@@ -94,7 +94,7 @@
                     <li class="point sayan s0"><a href="#" class="selector nappa">Nappa</a></li>
                     <li class="point mid aliens s0"><a href="#" class="selector piccoro">Piccoro</a></li>
                     <li class="point mid anchor s2"><a href="#" class="selector brollydbs">Brolly DBS </a></li>
-                    <li class="point sayan gods s1"><a href="#" class="selector vegitoblue">Vegito Blue</a></li>
+                    <li class="point sayan gods fuses s1"><a href="#" class="selector vegitoblue">Vegito Blue</a></li>
                     <li class="mid anchor human s0"><a href="#" class="selector tien">Tien Shin Han</a></li>
                     <li class="point mid anchor sayan s0"><a href="#" class="selector trunks">Trunks</a></li>
                     <li class="mid anchor sayan s0"><a href="#" class="selector vegetassj">Vegeta SSJ</a></li>
