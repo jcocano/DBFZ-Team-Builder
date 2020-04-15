@@ -1,21 +1,13 @@
+$('select').change(function () {
+    var current = this.value;
 
-var filtro2 = document.getElementById("praza")
-var filtro3 = document.getElementById("pdlc")
+    if (current == 'all') {
+        $('#selector').find('li.all').show();
+    } else {
 
-var lista = document.getElementById("li")
-console.log(lista)
+        $('#selector').find('li').hide();
+        $('#selector').find('li.all.' + current).show();
+    }
 
-function rolDePersonaje(){
-    //variables
-    var filtro1, ul, li, a, i, textvalue;
-    filtro1 = document.getElementById("ptype");
-    ul = document.getElementById("selector");
-    li = ul.getElementsByTagName('li');
-
-    //prueba
-    console.log(li)
-    
-
-}
-
-
+    return false;
+});
