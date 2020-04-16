@@ -40,3 +40,22 @@
     margin-left: 25px;
     margin-top: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .footer{ 
+    align-items: flex-start;
+  }
+
+  .footer__img__fb{
+    display: none;
+  }
+
+  .footer__img__tw{
+    display: none;
+  }
+
+  .footer__img__yt{
+    display: none;
+  }
+}

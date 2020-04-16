@@ -58,12 +58,12 @@
     color: white;
 }
 
-.options__type{
+.options__filter__type{
     padding-left: 40px;
     padding-top: 27px;
 }
 
-.options__type select{
+.options__filter__type select{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
@@ -78,12 +78,12 @@
     text-align-last: center;
 }
 
-.options__raza{
+.options__filter__raza{
     padding-left: 40px;
     padding-top: 27px;
 }
 
-.options__raza select{
+.options__filter__raza select{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
@@ -98,12 +98,12 @@
     text-align-last: center;
 }
 
-.options__dlc{
+.options__filter__dlc{
     padding-left: 40px;
     padding-top: 27px;
 }
 
-.options__dlc select{
+.options__filter__dlc select{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
@@ -116,4 +116,47 @@
     align-content: center;
     text-align: center;
     text-align-last: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .options__filter{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .options__filter__type{
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .options__filter__raza{
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .options__filter__dlc{
+            padding-left: 140px;
+            padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .options__filter{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .options__filter__type{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .options__filter__raza{
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .options__filter__dlc{
+        margin-top: 10px;
+        padding: 0px;
+    }
+    
 }

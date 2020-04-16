@@ -31,8 +31,8 @@
             <section class="options">
                 <section class="options__filter">
                     <h3>Filtros : </h3>
-                    <div class="options__type">
-                        <label for="ptype">Rol del personaje</label>
+                    <div class="options__filter__type">
+                        <label for="ptype">Rol del personaje:</label>
                         <select class="options__ptype" name="Tipo_P" id="ptype">
                             <option value="all" onclick="filtro(all)">Todo</option>
                             <option value="point" onclick="filtro(point)">Punta</option>
@@ -40,8 +40,8 @@
                             <option value="anchor" onclick="filtro(anchor)">Anchor / Sgunda asistencia</option>
                         </select>
                     </div>
-                    <div class="options__raza">
-                        <label for="praza">Raza del personaje</label>
+                    <div class="options__filter__raza">
+                        <label for="praza">Raza del personaje:</label>
                         <select name="Raza_P" id="praza">
                             <option value="all" onclick="filtro(all)">Todo</option>
                             <option value="human" onclick="filtro(human)">Humanos</option>
@@ -55,8 +55,8 @@
                             <option value="majin" onclick="filtro(majin)">Majins</option>
                         </select>
                     </div>
-                    <div class="options__dlc">
-                        <label for="pdlc">DLC</label>
+                    <div class="options__filter__dlc">
+                        <label for="pdlc">DLC:</label>
                         <select name="P_DLC" id="pdlc">
                             <option value="all" onclick="filtro(all)">Todo</option>
                             <option value="s0" onclick="filtro(s0)">Defecto del juego</option>
@@ -113,12 +113,15 @@
         </section>
     </body>
     <footer class="footer">
-            <img class="footer__img__fb" src="./assets/fb_ico.png" alt="Facebook">
-            <a href="https://www.facebook.com/New-Revolution-Fighterz-254195921947617">Facebook</a>
-            <img class="footer__img__tw" src="./assets/tw_ico.png" alt="Twitter">
-            <a href="https://twitter.com/NewRevo18">Twitter</a>
-            <img class="footer__img__yt" src="./assets/yt_ico.png" alt="YouTube">
-            <a href="https://www.youtube.com/channel/UCiwn51pAVaUO4PpHFgS2qIw">YouTube</a>
+            <div class="footer__img">
+                <img class="footer__img__fb" src="./assets/fb_ico.png" alt="Facebook">
+                <a href="https://www.facebook.com/New-Revolution-Fighterz-254195921947617">Facebook</a>
+                <img class="footer__img__tw" src="./assets/tw_ico.png" alt="Twitter">
+                <a href="https://twitter.com/NewRevo18">Twitter</a>
+                <img class="footer__img__yt" src="./assets/yt_ico.png" alt="YouTube">
+                <a href="https://www.youtube.com/channel/UCiwn51pAVaUO4PpHFgS2qIw">YouTube</a>
+            </div>
+        </div>
     </footer>
     <script src="./js/input.js"></script>
     <script src="./js/filter.js"></script>
