@@ -41,6 +41,15 @@
     padding-top: 50px;
 }
 
+.selector{
+    
+}
+
+.selector li{
+    list-style-type: none;
+    float: left;
+}
+
 .options__filter{
     display: flex;
     justify-content: center;
